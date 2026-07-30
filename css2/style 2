@@ -1,0 +1,91 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #9370db;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    flex: 1 1 300px;
+    background: white;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #4b0082;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Tablet Layout */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    nav {
+        justify-content: space-around;
+    }
+}
+
+/* Mobile Layout */
+
+@media (max-width: 320px) {
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

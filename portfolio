@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Stekivia Harper</h1>
+    <p>Student | Mom | Delivery Driver</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Projects</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main class="container">
+
+    <section class="card">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm Stekivia. I'm currently in school while balancing work as
+            a delivery driver and being a mom. I enjoy learning web development
+            and building websites.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Projects</h2>
+        <ul>
+            <li>Homework 1 Webpage</li>
+            <li>Homework 2 Portfolio</li>
+            <li>Environmental Science Assignments</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Stekivia Harper</p>
+</footer>
+
+</body>
+</html>
