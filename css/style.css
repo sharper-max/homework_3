@@ -7,11 +7,11 @@
 
 /* Body */
 body {
-    font-family: Arial, sans-serif;
     background-color: #02a7f3;
     color: #333;
-    line-height: 1.6;
 }
+
+
 
 /* Header */
 header {
@@ -23,8 +23,7 @@ header {
 
 /* Navigation */
 nav {
-    background-color: #9370DB;
-    padding: 15px;
+    background-color: #4B0082;
 }
 
 nav ul {
